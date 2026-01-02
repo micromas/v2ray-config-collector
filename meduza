@@ -1,0 +1,2 @@
+proxies:
+ - { name: 2153💰US-172.96.160.250-5295, server: "glimmerdsds.sdl-sz.com", port: 39007, type: ssr, cipher: aes-256-cfb, password: dajkd*/?, protocol: auth_sha1_v4, obfs: tls1.2_ticket_auth, protocol-param: , obfs-param: 1f4c39347.microsoft.com, tfo: False, udp: true, udp-over-tcp: false, obfs-password: my.obfs.password, alterId: 0 }
