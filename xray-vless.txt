@@ -9,3 +9,5 @@ vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.208:8880?security=&sni=/?
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@45.82.251.126:8880?security=&sni=/?---@Azarbayjab1_Net---@Azarbayjab1_Net---@azarbayjab1_Net---@azarbayjab1_Net---@Azarbayjab1_Net%23%F0%9F%87%BA%F0%9F%87%B2%F0%9F%87%BA%F0%9F%87%B2TM+(@AZARBAYJAB1)GPRS&fp=chrome&type=grpc&encryption=none#%F0%9F%87%BA%F0%9F%87%B2%F0%9F%87%BA%F0%9F%87%B2TM%20(@AZARBAYJAB1)GPRS
 vless://f0a44f8f-c01f-490c-a6eb-29106a2509a4@3.143.235.221:32252?security=tls&sni=3.143.235.221&type=grpc&serviceName=www.bing.com&encryption=none#%3E%3E@oneclickvpnkeys::US
 vless://b611e0a7-b01b-4dfa-aadc-f61dcf8dd6f2@94.183.170.218:2053?security=%23Config+1+-+@lebertad&type=tcp&encryption=none#Config%201%20-%20@lebertad
+vless://56e626c8-6396-4f81-a20f-3a84bc71164a@fox3.wizard2shop.org:2083?security=tls&sni=xiz30.wizard2shop.org&fp=360&type=ws&path=/?ed%3D2560%23%E2%9A%A1Telegram&host=xiz30.wizard2shop.org&packetEncoding=xudp&encryption=none#%E2%9A%A1Telegram
+vless://73203536-b99b-44bd-83bf-6b25d5254340@tunnel.alireza031.net:54436?security=none&type=tcp&packetEncoding=xudp&encryption=none#telegram%20%F0%9F%9A%80%20dailyv2ryDaily
