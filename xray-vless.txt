@@ -793,3 +793,4 @@ vless://faef9c56-30cd-4bf7-856f-644788b4050b@pypi.org:80?security=&type=ws&path=
 vless://06d4a2dd-b823-4b6a-843e-c159b6858d91@25.129.199.122:2095?security=&sni=ip6-free2.shakhle.ir.&allowInsecure=1&type=ws&path=/&host=ip6-free2.shakhle.ir.&encryption=none#4Sarina-4868
 vless://1f3b130d-7d29-45d1-b5aa-adc5cd94a885@sktr.berkeart.ir:19702?security=reality&sni=check-host.net&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=grpc&serviceName=xyz&encryption=none#4Sarina-5256
 vless://c33275fd-a4fa-470d-90e4-55da39d849a8@ger2.panbehpanel.ir:443?security=tls&type=tcp&encryption=none#MCI-@V2rayAlpha--8
+vless://0d6716db-7e72-4a88-8eb5-2124011d6a5a@95.85.232.131:10182?security=&type=tcp&path=/&headerType=http&host=Excoino.com&encryption=none#Join+Telegram:@Farah_VPN
