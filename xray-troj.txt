@@ -35,3 +35,14 @@ trojan://iCfh96DEJn3=QRbzF.Tdl@212.192.214.46:18069?security=tls&sni=www.vk.com%
 trojan://3437698@162.159.153.166:443?security=tls&sni=rough-violet-b842.heydari-cis64.workers.dev&fp=chrome&type=ws&path=/?ed%3D2560%23%F0%9F%87%B3%F0%9F%87%A6+Namibia+-+NA+%F0%9F%8C%8D+TR-WS-TLS+4%E2%83%A3&host=rough-violet-b842.heydari-cis64.workers.dev#%F0%9F%87%B3%F0%9F%87%A6%20Namibia%20-%20NA%20%F0%9F%8C%8D%20TR-WS-TLS%204%E2%83%A3
 trojan://3437698@104.18.45.158:443?security=tls&sni=rough-violet-b842.heydari-cis64.workers.dev&fp=chrome&type=ws&path=/?ed%3D2560%23%F0%9F%87%B3%F0%9F%87%A6+Namibia+-+NA+%F0%9F%8C%8D+TR-WS-TLS+4%E2%83%A3&host=rough-violet-b842.heydari-cis64.workers.dev#%F0%9F%87%B3%F0%9F%87%A6%20Namibia%20-%20NA%20%F0%9F%8C%8D%20TR-WS-TLS%204%E2%83%A3
 trojan://81d93f62-15a2-4994-adb9-0b5d906aac7e@103.224.212.211:443?security=tls&sni=60.72img.xyz&type=tcp#%F0%9F%94%92
+trojan://humanity@chatgpt.com:443?security=tls&type=tcp#%F0%9F%87%BD%F0%9F%87%BD%20XX%20%7C%20TROJAN%20%7C%20@v_2rayng0%20%231
+trojan://humanity@www.calmlunch.com:443?security=tls&type=tcp#%F0%9F%87%BD%F0%9F%87%BD%20XX%20%7C%20TROJAN%20%7C%20@vpn_ioss%20%231
+trojan://c7f9b8f0-bfdb-11ee-a15c-1239d0255272@chatbuzzteambhm.chatbuzzt7150.workers.dev:443?security=tls&type=tcp#%F0%9F%87%BD%F0%9F%87%BD%20XX%20%7C%20TROJAN%20%7C%20@teamvpnpro%20%232
+trojan://trojan@ip.sb:8443?security=tls&type=tcp#@VMESSIR4N%20%D8%AC%D9%87%D8%AA%20%D8%AE%D8%B1%DB%8C%D8%AF%20%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF
+trojan://trojan@22b.net:2087?security=tls&type=tcp#RELAY%F0%9F%9A%A9
+trojan://c7f9b8f0-bfdb-11ee-a15c-1239d0255272@104.21.41.21:443?security=tls&sni=chatbuzzteambhm.chatbuzzt7150.workers.dev&type=tcp#%F0%9F%94%92
+trojan://YwuvGJk36B@creativecommons.org:2053?security=tls&type=tcp#@EuServer
+trojan://02948bde80594712b974368035f294dd@88.214.24.235:9443?security=tls&sni=apple.com&fp=random&type=tcp#%E2%9A%9C%EF%B8%8FTelegram:@IP_CF%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%E2%80%A2%F0%9F%93%A2
+trojan://nodes-b211f28a@185.181.208.21:2083?security=tls&sni=node-tr-1.v2sv.top&type=tcp#%F0%9F%94%92
+trojan://xtA6WF92Itmhm9jfvXUH1MDVL@free-de-3.undef.network:443?security=tls&sni=free-de-3.undef.network&type=tcp#%E2%9A%A1Telegram
+trojan://qmBSKnAl6LYi9=z23Rs.Z@37.235.49.209:28099?security=tls&sni=celestialcorset.crystalhamster.click&type=tcp#%F0%9F%87%AE%F0%9F%87%B8%20Iceland%20-%20Hafnarfjordur%20%F0%9F%8C%8D%20TR-TCP-TLS%204%E2%83%A3
