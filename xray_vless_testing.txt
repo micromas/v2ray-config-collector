@@ -1,3 +1,4 @@
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@80.66.85.115:8443?security=tls&sni=sni.111000.indevs.in&fp=chrome&type=ws&path=/?ed%3D2560%23[OpenRay]+%F0%9F%87%A9%F0%9F%87%AA+DE-7458&host=sni.111000.indevs.in&encryption=none#[OpenRay]%20%F0%9F%87%A9%F0%9F%87%AA%20DE-7458
 vless://d42a623b-4dbd-4523-ab4e-adedf7b95a6f@94.26.229.23:443?security=tls&sni=ru.cheburnetnastalgia1998.com&type=httpupgrade&path=/&encryption=none#%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20594138
 vless://d42a623b-4dbd-4523-ab4e-adedf7b95a6f@ru.cheburnetnastalgia1998.com:443?security=tls&sni=ru.cheburnetnastalgia1998.com&type=httpupgrade&path=/&encryption=none#%3E%3E@oneclickvpnkeys::RU
 vless://d8dd94fd-540e-461d-b5d4-acebef02c22a@188.92.28.204:34045?security=reality&sni=visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me&fp=chrome&pbk=cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA&sid=e8ab71d0&type=tcp&encryption=none#4Mohsen-8161
