@@ -417,9 +417,3 @@ proxies:
   - { name: 415💰Hysteria2🇳🇱🇳🇱NLROSE09, server: "yapc-1.adamhayward.co.uk", port: 36300, type: hysteria2, ports: 36300, password: "Yet-Another-Public-Config-1", obfs: salamander, obfs-password: "Yet-Another-Public-Config-1", sni: "YAPC-1.afshin.ir", skip-cert-verify: true, tfo: false, alterId: 0 }
   - { name: 416💰SS🇭🇰🇭🇰HKROSE620, server: "103.141.221.200", port: 8388, type: ss, cipher: chacha20-ietf, password: "asd123456", tfo: false, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
 
-
-
-rules:
-  - GEOIP,CN,DIRECT
-  - GEOIP,RU,DIRECT
-  - MATCH,PROXY
