@@ -22,6 +22,14 @@ proxy-groups:
     type: select
     proxies:
       - socks5-out   # ← ВСЁ ИДЁТ ЧЕРЕЗ SOCKS5 (Clash Verge)
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - 8.8.8.8:53
+    - 8.8.4.4:53
+  auto-route: true
+  auto-detect-interface: true
 
 rules:
   - GEOIP,CN,DIRECT
