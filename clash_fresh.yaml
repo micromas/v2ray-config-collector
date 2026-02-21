@@ -1,10 +1,4 @@
-port: 7893
-socks-port: 7894
-redir-port: 7895
-allow-lan: true
-#mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9191
+
 
 # 🔥 КЛЮЧЕВОЙ ЭЛЕМЕНТ: мы используем REMOTE SOCKS5 как "внешний выход"
 proxy-providers:
