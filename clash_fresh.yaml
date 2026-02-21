@@ -16,7 +16,11 @@ proxy-providers:
       enable: true
       url: "http://www.gstatic.com/generate_204"
       interval: 60
-
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - socks5-out   # ← ВСЁ ИДЁТ ЧЕРЕЗ SOCKS5 (Clash Verge)
 proxies:
   - { client-fingerprint: chrome, http-opts: { headers: {  }, path: [/] }, name: 0💰.comRuk1ng001_05d92301, network: tcp, port: 443, reality-opts: { public-key: rgzU-HlMzZccV6ZjxLw_Fs9Pxeyrj2N3HFMgURyjwwc, short-id: "f92954e2e710" }, server: "212.233.96.101", servername: "yandex.ru", tls: true, type: vless, udp: true, uuid: "f4643425-78b3-44ac-954b-4a2167002c23", xudp: true, alpn: [h2, http/1.1], skip-cert-verify: true, encryption: "", alterId: 0 }
   - { client-fingerprint: chrome, name: 1💰.comRuk1ng001_7e03f5d8, network: tcp, port: 56328, reality-opts: { public-key: ZXQHrp-dR_PEUhgjvfB3XhJU776SCjz5NPOezK-nvkk, short-id: "7cab038f" }, server: "144.31.198.228", servername: "canva.com", tls: true, type: vless, udp: true, uuid: "7ccaae6a-8903-46c0-8de1-2b7dd5f3c1fb", xudp: true, alpn: [h2, http/1.1], skip-cert-verify: true, encryption: "", alterId: 0 }
