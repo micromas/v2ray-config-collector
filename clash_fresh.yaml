@@ -1,4 +1,3 @@
-
 proxies:
   - { client-fingerprint: chrome, http-opts: { headers: {  }, path: [/] }, name: 0💰.comRuk1ng001_05d92301, network: tcp, port: 443, reality-opts: { public-key: rgzU-HlMzZccV6ZjxLw_Fs9Pxeyrj2N3HFMgURyjwwc, short-id: "f92954e2e710" }, server: "212.233.96.101", servername: "yandex.ru", tls: true, type: vless, udp: true, uuid: "f4643425-78b3-44ac-954b-4a2167002c23", xudp: true, alpn: [h2, http/1.1], skip-cert-verify: true, encryption: "", alterId: 0 }
   - { client-fingerprint: chrome, name: 1💰.comRuk1ng001_7e03f5d8, network: tcp, port: 56328, reality-opts: { public-key: ZXQHrp-dR_PEUhgjvfB3XhJU776SCjz5NPOezK-nvkk, short-id: "7cab038f" }, server: "144.31.198.228", servername: "canva.com", tls: true, type: vless, udp: true, uuid: "7ccaae6a-8903-46c0-8de1-2b7dd5f3c1fb", xudp: true, alpn: [h2, http/1.1], skip-cert-verify: true, encryption: "", alterId: 0 }
@@ -418,11 +417,7 @@ proxies:
   - { name: 415💰Hysteria2🇳🇱🇳🇱NLROSE09, server: "yapc-1.adamhayward.co.uk", port: 36300, type: hysteria2, ports: 36300, password: "Yet-Another-Public-Config-1", obfs: salamander, obfs-password: "Yet-Another-Public-Config-1", sni: "YAPC-1.afshin.ir", skip-cert-verify: true, tfo: false, alterId: 0 }
   - { name: 416💰SS🇭🇰🇭🇰HKROSE620, server: "103.141.221.200", port: 8388, type: ss, cipher: chacha20-ietf, password: "asd123456", tfo: false, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
 
-proxy-groups:
-  - name: PROXY
-    type: select
-    proxies:
-      - socks5-out   # ← ВСЁ ИДЁТ ЧЕРЕЗ SOCKS5 (Clash Verge)
+
 
 rules:
   - GEOIP,CN,DIRECT
