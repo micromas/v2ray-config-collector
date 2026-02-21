@@ -2,7 +2,7 @@ port: 7893
 socks-port: 7894
 redir-port: 7895
 allow-lan: true
-mode: rule-proxied
+mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9191
 
