@@ -1,0 +1,34 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+proxies:
+  - { name: 4💰.comRuk1ng001_cd44613f, network: ws, port: 2096, server: "45.12.30.138", servername: "sni.111000.indevs.in", tls: true, type: vless, uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d", ws-opts: { headers: { Host: "sni.111000.indevs.in" }, path: "/ed=2560&Telegram🇨🇳WangCai2" }, client-fingerprint: chrome, alpn: [h2, http/1.1], skip-cert-verify: true, encryption: "", alterId: 0 }
+  - { name: 5💰.comRuk1ng001_a88e970f, password: "gs4BXwT6SW", port: 10988, server: "154.26.192.123", skip-cert-verify: false, tls: false, type: http, username: fQ67Dpe5dU, alterId: 0 }
+  - { name: 6💰.comRuk1ng001_d6e07ac0, client-fingerprint: chrome, encryption: "", flow: xtls-rprx-vision, http-opts: { headers: {  }, path: [/] }, network: tcp, port: 7898, reality-opts: { public-key: s4dI2op4fpqj27daSIymWOHxy_wniR2EhOdOYJVdvS0, short-id: "" }, server: "38.246.229.227", servername: "aws.amazon.com", tls: true, type: vless, udp: true, uuid: "4a1a7e5f-47ce-44b5-b20f-2e84efa42d1d", xudp: true, alpn: [h2, http/1.1], skip-cert-verify: true, alterId: 0 }
+  - { name: 11💰Amsterdam, server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 12💰Amsterdam, server: 82.38.31.124, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 13💰Amsterdam, server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 18💰Amsterdam, server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 19💰Amsterdam, server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 21💰Amsterdam, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+proxy-groups:
+- initial: true
+  interval: 180000
+  name: Auto
+  proxies:
+  - 11💰Amsterdam
+  - 12💰Amsterdam
+  - 13💰Amsterdam
+  - 18💰Amsterdam
+  - 19💰Amsterdam
+  - 21💰Amsterdam
+  tolerance: 2000
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+rules:
+- MATCH, Auto
