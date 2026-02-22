@@ -1,9 +1,6 @@
 port: 7893
 socks-port: 7894
 redir-port: 7895
-allow-lan: trueport: 7893
-socks-port: 7894
-redir-port: 7895
 allow-lan: true
 mode: Rule
 log-level: info
