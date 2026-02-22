@@ -43,6 +43,8 @@ proxy-groups:
   tolerance: 2000
   type: url-test
   url: https://www.gstatic.com/generate_204
+  proxies:
+    - socks5-out   # ← ВСЁ ИДЁТ ЧЕРЕЗ SOCKS5 (Clash Verge)
 rules:
 - MATCH, Auto
 
