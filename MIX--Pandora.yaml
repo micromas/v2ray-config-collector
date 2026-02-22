@@ -9,7 +9,11 @@ external-controller: 127.0.0.1:9090
 proxy-groups:
   - name: PROXY
     type: select
-
+  proxies:
+      - 2💰.comRuk1ng001_66a8d626
+      - 3💰.comRuk1ng001_247d9898
+      - 4💰.comRuk1ng001_cd44613f
+      - 5💰.comRuk1ng001_a88e970f
 rules:
   - GEOIP,CN,DIRECT
   - GEOIP,RU,DIRECT
