@@ -1,0 +1,33 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+
+# Авто-подключение к лучшему серверу
+url-test:
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 180000
+  tolerance: 2000
+
+proxies:
+  - { name: input💰💰🇳🇱, type: ss, server: "193.29.139.151", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true }
+  - { name: input💰💰TelegramFarah_VPN🟣-111, type: ss, server: "203.23.128.33", port: 990, cipher: chacha20-ietf-poly1305, password: "f8f7aCzcPKbsF8p3", udp: true }
+  - { name: input💰💰🇳🇱NL|🔒SS|free1ss17, type: ss, server: "193.29.139.233", port: 8080, cipher: chacha20-ietf-poly1305, password: "QCXDxuDlTTMD7jtgHUjIoj", udp: true }
+
+# Объявляем, что используем лучший прокси
+proxy-groups:
+  - name: Auto
+    type: url-test
+    proxies:
+      - input💰💰🇳🇱
+      - input💰💰TelegramFarah_VPN🟣-111
+      - input💰💰🇳🇱NL|🔒SS|free1ss17
+    url: https://www.gstatic.com/generate_204
+    interval: 180000
+    tolerance: 2000
+
+# Настраиваем выход через локальный порт
+allow-lan: true
+proxy: "127.0.0.1:7890"
