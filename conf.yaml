@@ -1,0 +1,27 @@
+# clash.yaml
+port: 7893
+socks-port: 7894
+redir-port: 7895
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9191
+
+proxy-providers:
+  socks5-provider:
+    type: http               # <-- обязательно http, а не file
+    url: https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/socks5-proxies.yml
+    interval: 86400000       # обновление каждые 24 ч
+    health-check: false
+
+proxy-groups:
+  - name: Auto
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 180000
+    tolerance: 2000
+    proxies:
+      - socks5-provider
+
+rules:
+  - MATCH, Auto
