@@ -1,16 +1,19 @@
-# Указываем proxy-providers
 proxy-providers:
-  my_providers: # Название вашего провайдера
+  my_providers:
     type: http
     url: "https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/CASCAD/providers.yaml"
-    interval: 86400  # Обновление раз в сутки
-    # path: "proxies" # Если ссылка напрямую дает список прокси, этот параметр не нужен
+    path: ""
+    interval: 86400
     health-check:
       enable: true
-      interval: 300  # Проверка раз в 5 минут
       url: "https://www.gstatic.com/generate_204"
-      # В Mihomo можно добавить 'lazy: true' если хотите проверять только когда прокси используется
-
+      interval: 300
+      timeout: 5000 # Милисекунды
+      lazy: true # Проверять только при необходимости
+      expected-status: 204
+    # filter: "(?i)test" # Пример фильтрации прокси по названию
+    # override:
+    #   udp: true # Разрешить UDP для всех прокси из этого провайдера
 # Основной proxy-groups
 proxy-groups:
   - name: Auto
