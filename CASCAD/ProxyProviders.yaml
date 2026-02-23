@@ -4,7 +4,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/CASCAD/providers.yaml"
     interval: 300  # интервал обновления в секундах (5 минут)
-    path: "proxies"  # путь к списку в YAML файле, в вашем случае это корень файла
+    #path: "proxies"  # путь к списку в YAML файле, в вашем случае это корень файла
     health-check: true  # включить проверку доступности прокси
     health-check-interval: 60  # интервал проверки в секундах
 
