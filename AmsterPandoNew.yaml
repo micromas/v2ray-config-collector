@@ -1,6 +1,3 @@
-# ────────────────────────────────────────────────────────────────────────────────
-# 1️⃣  Общие параметры
-# ────────────────────────────────────────────────────────────────────────────────
 port: 7893
 socks-port: 7894
 redir-port: 7895
@@ -9,24 +6,13 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9191
 
-# ────────────────────────────────────────────────────────────────────────────────
-# 2️⃣  Провайдеры прокси
-# ────────────────────────────────────────────────────────────────────────────────
 proxy-providers:
   socks5-provider:
-    type: http                     # <-- http, чтобы поддерживать health-check
-    url: https://example.com/socks5-proxies.yml
-    interval: 3600000
-    health-check:
-      health-check-interval: 300000   # проверка каждые 5 минут
-      health-check-url: https://www.gstatic.com/generate_204
-      health-check-tls: true
-      health-check-allow-redirects: false
-      health-check-allow-ssl-verify: true
+    type: http
+    url: https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/socks5-proxies.yml
+    interval: 86400000          # обновление каждые 24 часа
+    health-check: false          # можно включить, если файл поддерживает
 
-# ────────────────────────────────────────────────────────────────────────────────
-# 3️⃣  Группы прокси
-# ────────────────────────────────────────────────────────────────────────────────
 proxy-groups:
   - name: Auto
     type: url-test
@@ -36,8 +22,5 @@ proxy-groups:
     proxies:
       - socks5-provider
 
-# ────────────────────────────────────────────────────────────────────────────────
-# 4️⃣  Правила
-# ────────────────────────────────────────────────────────────────────────────────
 rules:
   - MATCH, Auto
