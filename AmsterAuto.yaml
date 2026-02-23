@@ -10,7 +10,7 @@ proxy-groups:
   initial: true
   interval: 180000
   tolerance: 2000
-  type: select
+  type: fallback
   proxies:
   - 11💰Amsterdam
   - 12💰Amsterdam
