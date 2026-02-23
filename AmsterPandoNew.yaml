@@ -11,7 +11,7 @@ proxy-providers:
     type: http
     url: https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/socks5-proxies.yml
     interval: 86400000          # обновление каждые 24 часа
-    health-check: false          # можно включить, если файл поддерживает
+
 
 proxy-groups:
   - name: Auto
