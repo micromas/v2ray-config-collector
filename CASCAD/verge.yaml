@@ -1,0 +1,27 @@
+port: 7891
+
+# URL-test для поиска лучшего сервера
+url-test:
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 180000
+  tolerance: 2000
+
+proxies:
+  - { name: output💰💰🇳🇱-193.29.139.157-0223, type: ss, server: "193.29.139.157", port: 8080, cipher: chacha20-ietf-poly1305, password: "4a2rfixophdjffa8KVA4Aa", udp: true }
+  - { name: output💰💰🇳🇱-193.29.139.227-0245, type: ss, server: "193.29.139.227", port: 8080, cipher: chacha20-ietf-poly1305, password: "QCXDxuDlTTMD7jtgHUjIoj", udp: true }
+  - { name: output💰💰🇳🇱-193.29.139.235-0247, type: ss, server: "193.29.139.235", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true }
+
+proxy-groups:
+  - name: Cascaded
+    type: url-test
+    proxies:
+      - "127.0.0.1:7890"  # Pandora-Box
+    url: https://www.gstatic.com/generate_204
+    interval: 180000
+    tolerance: 2000
+
+# В качестве транспорта используем Pandora-Box как upstream
+rules:
+  - DOMAIN-SUFFIX,google.com,PROXY
+  - MATCH,Cascaded
