@@ -1,7 +1,39 @@
-proxies:
-  - { name: 11Amsterdam, server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
-  - { name: 12Amsterdam, server: 82.38.31.124, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
-  - { name: 13Amsterdam, server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
-  - { name: 18Amsterdam, server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
-  - { name: 19Amsterdam, server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
-  - { name: 21Amsterdam, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+- name: 9Trick_mobil
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  port: 1743
+  server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  skip-cert-verify: true
+  sni: 🔒
+  tls: false
+  type: hysteria2
+- name: 9oneclickvpnkeys
+  password: 1y4HweESOT
+  port: 27995
+  server: sss.ikun6.dpdns.org
+  skip-cert-verify: true
+  sni: azure.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 9aa
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 9ss
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2055
+  server: xjp1.mangshe.xyz
+  skip-cert-verify: true
+  sni: xjp1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 9dd
+  password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
+  port: 13778
+  server: jp7.dexlos.com
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
