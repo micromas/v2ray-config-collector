@@ -21,12 +21,9 @@ proxy-groups:
     # Здесь должны быть ТОЧНЫЕ имена прокси из файла providers.yaml
     # Например, если в providers.yaml есть прокси с именами "Proxy-1" и "Proxy-2"
     proxies:
-      - 11Amsterdam # <-- Замените на реальное имя прокси из providers.yaml
-      - 12Amsterdam # <-- Замените на реальное имя прокси из providers.yaml
-      - 13Amsterdam # <-- Замените на реальное имя прокси из providers.yaml
-      - 18Amsterdam # <-- Замените на реальное имя прокси из providers.yaml
-      - 19Amsterdam # <-- Замените на реальное имя прокси из providers.yaml
-      - 21Amsterdam # <-- Замените на реальное имя прокси из providers.yaml
-      # Можно добавить и другие группы прокси из этого же провайдера, если они есть
-      # - "another_proxy_from_my_providers"
+      - 9Trick_mobil
+      - 9oneclickvpnkeys
+      - 9aa
+      - 9ss
+      - 9dd
       - DIRECT # Всегда оставляем DIRECT для прямого подключения
