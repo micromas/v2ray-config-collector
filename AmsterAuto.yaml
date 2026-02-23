@@ -6,9 +6,11 @@ proxies:
   - { name: 19💰Amsterdam, server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, tfo: false, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
   - { name: 21💰Amsterdam, server: 82.38.31.99, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, tfo: false, udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
 proxy-groups:
-- initial: true
+- name: Auto
+  initial: true
   interval: 180000
-  name: Auto
+  tolerance: 2000
+  type: fallback
   proxies:
   - 11💰Amsterdam
   - 12💰Amsterdam
@@ -16,8 +18,6 @@ proxy-groups:
   - 18💰Amsterdam
   - 19💰Amsterdam
   - 21💰Amsterdam
-  tolerance: 2000
-  type: url-test
   url: https://www.gstatic.com/generate_204
 rules:
 - MATCH, Auto
