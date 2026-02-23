@@ -1,16 +1,15 @@
-  - name: "\U0001F534\U0001F1ED\U0001F1F0[\U0001F4E6]_github.com/Ruk1ng001_c9b15074"
-    password: <password>
-    port: 8443
-    server: a329ace7-t9zts0-tn57fp-5ifr.hkt.cdnhuawei.com
-    sni: a329ace7-t9zts0-tn57fp-5ifr.hkt.cdnhuawei.com
-    tls: true
-    type: http
-    username: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-  - name: "\U0001F534\U0001F1ED\U0001F1F0[\U0001F50D]_github.com/Ruk1ng001_debb2f79"
-    password: <password>
-    port: 8443
-    server: 0535d23a-ta1og0-thiwul-1gcq2.hkt.cdnhuawei.com
-    sni: 0535d23a-ta1og0-thiwul-1gcq2.hkt.cdnhuawei.com
-    tls: true
-    type: http
-    username: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  - { name: 550💰💰🇳🇱NLROSE555, type: ss, server: "193.29.139.184", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 480💰💰🇳🇱482, type: ss, server: "45.87.175.22", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 506💰💰🇳🇱NLROSE509, type: ss, server: "193.29.139.177", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 253💰💰🇳🇱🟣-139, type: ss, server: "193.29.139.157", port: 8080, cipher: chacha20-ietf-poly1305, password: "4a2rfixophdjffa8KVA4Aa", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 266💰💰🇳🇱🟣-147, type: ss, server: "193.29.139.217", port: 8080, cipher: chacha20-ietf-poly1305, password: "QCXDxuDlTTMD7jtgHUjIoj", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 11💰💰🇳🇱-01, type: ss, server: "193.29.139.251", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 85💰💰🇳🇱BV, type: ss, server: "193.29.139.152", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 78💰💰🇳🇱, type: ss, server: "193.29.139.151", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 213💰💰TelegramFarah_VPN🟣-111, type: ss, server: "203.23.128.33", port: 990, cipher: chacha20-ietf-poly1305, password: "f8f7aCzcPKbsF8p3", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 260💰💰🇳🇱NL|🔒SS|free1ss17, type: ss, server: "193.29.139.233", port: 8080, cipher: chacha20-ietf-poly1305, password: "QCXDxuDlTTMD7jtgHUjIoj", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 28💰💰🇳🇱-193.29.139.157-0223, type: ss, server: "193.29.139.157", port: 8080, cipher: chacha20-ietf-poly1305, password: "4a2rfixophdjffa8KVA4Aa", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 23💰💰🇳🇱-193.29.139.227-0245, type: ss, server: "193.29.139.227", port: 8080, cipher: chacha20-ietf-poly1305, password: "QCXDxuDlTTMD7jtgHUjIoj", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 45💰💰🇳🇱-193.29.139.235-0247, type: ss, server: "193.29.139.235", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+  - { name: 254💰💰🇳🇱-03, type: ss, server: "45.87.175.22", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
+
