@@ -3,14 +3,20 @@ proxy-providers:
   my_providers:
     type: http
     url: "https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/CASCAD/providers.yaml"
-    interval: 86400  # интервал обновления в секундах (5 минут)
-    #path: "proxies"  # путь к списку в YAML файле, в вашем случае это корень файла
-    health-check: true  # включить проверку доступности прокси
-    health-check-interval: 300  # интервал проверки в секундах
+    interval: 86400  # Обновление раз в сутки
+    # path: "proxies"  <-- УДАЛЕНО, если прокси в корне файла
+    health-check:
+      enable: true
+      interval: 300  # Проверка раз в 5 минут
+      url: "https://www.gstatic.com/generate_204"
 
 # Основной proxy-groups
+# Здесь должны быть имена КОНКРЕТНЫХ прокси из providers.yaml
 proxy-groups:
   - name: Auto
-    type: fallback
+    type: fallback # или select
     proxies:
-      - proxy-provider: my_providers  # указываем на наш источник
+      - proxy_provider_name_1 # <-- Замените на реальное имя прокси из providers.yaml
+      - proxy_provider_name_2 # <-- Замените на реальное имя прокси из providers.yaml
+      - DIRECT # Прямое подключение
+
