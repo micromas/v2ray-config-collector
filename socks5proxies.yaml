@@ -1,4 +1,4 @@
-proxy-providers:
+proxies:
   - { name: 550💰💰🇳🇱NLROSE555, type: ss, server: "193.29.139.184", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
   - { name: 480💰💰🇳🇱482, type: ss, server: "45.87.175.22", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
   - { name: 506💰💰🇳🇱NLROSE509, type: ss, server: "193.29.139.177", port: 8080, cipher: chacha20-ietf-poly1305, password: "oZIoA69Q8yhcQV8ka3Pa3A", udp: true, udp-over-tcp: false, ip-version: ipv4, alterId: 0 }
