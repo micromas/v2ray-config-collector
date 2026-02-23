@@ -10,31 +10,22 @@ log-level: info
 external-controller: 127.0.0.1:9191
 
 # ────────────────────────────────────────────────────────────────────────────────
-# 2️⃣  TUN (только если вы хотите использовать TUN‑режим)
-# ────────────────────────────────────────────────────────────────────────────────
-tun:
-  enable: true
-  stack: system          # можно использовать iptables, ipip, etc.
-  dns-hijack:
-    - 8.8.8.8:53
-    - 8.8.4.4:53
-  auto-route: true
-  auto-detect-interface: true
-
-# ────────────────────────────────────────────────────────────────────────────────
-# 3️⃣  Провайдеры прокси
+# 2️⃣  Провайдеры прокси
 # ────────────────────────────────────────────────────────────────────────────────
 proxy-providers:
   socks5-provider:
-    type: http
-    url: https://github.com/micromas/v2ray-config-collector/raw/refs/heads/main/socks5-proxies.yml
+    type: http                     # <-- http, чтобы поддерживать health-check
+    url: https://example.com/socks5-proxies.yml
     interval: 3600000
-    health-check: false
-    tags:
-      - socks5
+    health-check:
+      health-check-interval: 300000   # проверка каждые 5 минут
+      health-check-url: https://www.gstatic.com/generate_204
+      health-check-tls: true
+      health-check-allow-redirects: false
+      health-check-allow-ssl-verify: true
 
 # ────────────────────────────────────────────────────────────────────────────────
-# 4️⃣  Группы прокси
+# 3️⃣  Группы прокси
 # ────────────────────────────────────────────────────────────────────────────────
 proxy-groups:
   - name: Auto
@@ -46,7 +37,7 @@ proxy-groups:
       - socks5-provider
 
 # ────────────────────────────────────────────────────────────────────────────────
-# 5️⃣  Правила
+# 4️⃣  Правила
 # ────────────────────────────────────────────────────────────────────────────────
 rules:
   - MATCH, Auto
