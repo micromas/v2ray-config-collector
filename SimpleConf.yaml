@@ -10,7 +10,7 @@ external-controller: 127.0.0.1:9191
 proxy-providers:
   socks5-provider:
     type: http               # <-- обязательно http, а не file
-    url: https://github.com/micromas/v2ray-config-collector/raw/refs/heads/main/--socks5proxies.yaml
+    url: https://github.com/micromas/v2ray-config-collector/raw/refs/heads/main/socks5proxies.yaml
     interval: 86400000       # обновление каждые 24 ч
     health-check: false
 
