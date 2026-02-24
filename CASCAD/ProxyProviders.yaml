@@ -2,7 +2,7 @@ proxy-providers:
   my_providers:
     type: http
     url: "https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/CASCAD/providers.yaml"
-    path: "./CASCAD/providers.yaml"
+    path: "./providers.yaml"
     interval: 86400
     health-check:
       enable: true
