@@ -1,0 +1,34 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# Провайдеры прокси
+proxy-providers:
+  my_providers:
+    type: http
+    url: "https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/CASCAD/providers.yaml"
+    path: "./providers.yaml"
+    interval: 86400
+    health-check:
+      enable: true
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      timeout: 5000
+      lazy: true
+      expected-status: 204
+
+# Группы прокси
+proxy-groups:
+  - name: 🚀 Auto
+    type: select
+    proxies:
+      - my_providers
+      - DIRECT
+
+# Правила
+rules:
+  - DOMAIN-SUFFIX,google.com,🚀 Auto
+  - DOMAIN-SUFFIX,github.com,🚀 Auto
+  - MATCH,🚀 Auto
