@@ -19,16 +19,22 @@ proxy-providers:
       lazy: true
       expected-status: 204
 
-# Группы прокси
 proxy-groups:
   - name: 🚀 Auto
     type: select
-    proxies:
+    use:
       - my_providers
+    proxies:
       - DIRECT
+  - name: All Servers # Новая группа для ручного выбора
+    type: select
+    use:
+      - my_providers # Эта группа использует все прокси из my_providers
+    # Если вам нужен конкретный порядок или вы хотите выбрать определенные серверы,
+    # можно указать их здесь, но для полного списка этот подход удобнее.
 
 # Правила
 rules:
   - DOMAIN-SUFFIX,google.com,🚀 Auto
   - DOMAIN-SUFFIX,github.com,🚀 Auto
-  - MATCH,🚀 Auto
+  - MATCH,DIRECT
