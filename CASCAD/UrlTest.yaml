@@ -14,7 +14,7 @@ proxy-providers:
     health-check:
       enable: true
       url: "https://www.gstatic.com/generate_204"
-      interval: 60
+      interval: 300
       timeout: 5000
       lazy: true
       expected-status: 204
@@ -31,7 +31,7 @@ proxy-groups:
     use:
       - my_providers
     url: "https://www.gstatic.com/generate_204"
-    interval: 300          # Тестировать каждые 5 минут
+    interval: 60          # Тестировать каждые 5 минут
     tolerance: 50          # Переключаться если пинг лучше на 50мс
     lazy: true
     timeout: 5000
