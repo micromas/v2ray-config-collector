@@ -13,7 +13,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: "QCXDxuDlTTMD7jtgHUjIoj"
     udp: true
-  - name:NLЗ
+  - name: NLЗ
     type: ss
     server: "193.29.139.235"
     port: 8080
