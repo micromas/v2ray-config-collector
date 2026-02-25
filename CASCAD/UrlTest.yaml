@@ -1,0 +1,46 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# Провайдеры прокси
+proxy-providers:
+  my_providers:
+    type: http
+    url: "https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/CASCAD/providers.yaml"
+    path: "./providers.yaml"
+    interval: 86400
+    health-check:
+      enable: true
+      url: "https://www.gstatic.com/generate_204"
+      interval: 300
+      timeout: 5000
+      lazy: true
+      expected-status: 204
+
+proxy-groups:
+  - name: 🚀 Auto
+    type: select
+    use:
+      - my_providers
+    proxies:
+      - DIRECT
+  - name: ☀ All Servers # Новая группа для ручного выбора
+    type: url-test
+    use:
+      - my_providers
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300          # Тестировать каждые 5 минут
+    tolerance: 50          # Переключаться если пинг лучше на 50мс
+    lazy: true
+    timeout: 5000
+    max-fail: 5            # Максимум 5 неудачных тестов перед отключением
+
+# Правила
+rules:
+  - DOMAIN-SUFFIX,google.com,🚀 Auto
+  - DOMAIN-SUFFIX,github.com,🚀 Auto
+  #- MATCH,DIRECT
+  # Добавьте правило, которое будет направлять весь остальной трафик в вашу группу для выбора
+  - MATCH,☀ All Servers # Весь остальной трафик будет направляться в группу, где вы можете выбрать сервер
