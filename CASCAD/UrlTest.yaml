@@ -11,6 +11,8 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/micromas/v2ray-config-collector/refs/heads/main/CASCAD/providers.yaml"
     path: "./providers.yaml"
     interval: 86400
+    #Включение health-check внутри proxy-providers: my_providers: добавит дополнительный уровень фильтрации. 
+    #health-check будет активно проверять и отсеивать нерабочие серверы сразу после их получения из провайдера. 
     #health-check:
       #enable: true
       #url: "https://www.gstatic.com/generate_204"
@@ -33,7 +35,7 @@ proxy-groups:
     url: "https://www.gstatic.com/generate_204"
     interval: 60          # Тестировать каждые 5 минут
     tolerance: 50          # Переключаться если пинг лучше на 50мс
-    lazy: true
+    # lazy: true
     timeout: 5000
     max-fail: 5            # Максимум 5 неудачных тестов перед отключением
 
