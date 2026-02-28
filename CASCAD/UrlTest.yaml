@@ -35,7 +35,7 @@ proxy-groups:
     url: "https://www.gstatic.com/generate_204"
     interval: 60          # Тестировать каждые 5 минут
     tolerance: 50          # Переключаться если пинг лучше на 50мс
-    # lazy: true
+    lazy: false
     timeout: 5000
     max-fail: 5            # Максимум 5 неудачных тестов перед отключением
 
