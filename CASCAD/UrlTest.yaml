@@ -33,7 +33,7 @@ proxy-groups:
     use:
       - my_providers
     url: "https://www.gstatic.com/generate_204"
-    interval: 60          # Тестировать каждые 5 минут
+    interval: 180          #60 Тестировать каждые  60 секунд
     tolerance: 50          # Переключаться если пинг лучше на 50мс
     lazy: false
     timeout: 5000
