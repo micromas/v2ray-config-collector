@@ -113,3 +113,5 @@ vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv190.towersflowerss.com:443?secur
 vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv152.towersflowerss.com:64534?security=&type=ws&encryption=none#%F0%9F%87%A6%F0%9F%87%B9%20Austria,%20Vienna%20%7C%20[BL]
 vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv120.towersflowerss.com:65000?security=&type=ws&encryption=none#London
 vless://36d85d65-1b57-4cba-a2a6-f61131b08593@srv174.towersflowerss.com:65000?security=&fp=randomized&type=ws&encryption=none#%F0%9F%87%A8%F0%9F%87%BF%20Czechia,%20Prague%20%7C%20[BL]
+vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@87.228.124.196:4443?security=&type=tcp&encryption=none#Stockholm
+vless://2cbd01de-4c6b-4b7a-89b2-2da483c9d314@212.41.28.109:4443?security=&type=tcp&encryption=none#Stockholm
