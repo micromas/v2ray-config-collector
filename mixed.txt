@@ -8,5 +8,10 @@ vless://97e0ea78-67ae-4984-8a14-a7d1a51e58de@wwww.qarvian.ir:443?security=tls&sn
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@169.197.140.208:443?security=tls&sni=blog.discoverfreshgraduatejobsstartyourprofessionaljourney.com&allowInsecure=1&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20%F0%9F%92%A5Config_jo-155
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@66.163.114.126:443?security=tls&sni=resources.findconnectwithemployersandbuildprofessionalnetwork.com&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20%F0%9F%92%A5Config_jo-166
 vless://8d2cbffd-43d0-458d-906b-7c54b7b51f38@146.75.59.186:443?security=tls&sni=cdn.akamai.steamstatic.com&allowInsecure=1&type=ws&path=/&host=ukoijji.global.ssl.fastly.net&encryption=none#%F0%9F%8F%B3%EF%B8%8F%20%F0%9F%92%A5Config_jo-241
+ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=@185.22.153.117:18443#%F0%9F%87%B7%F0%9F%87%BA@FreakConfig
+ss://YWVzLTI1Ni1nY206Y0NNSmdKVEEzQkE0ODlZVVlyRnE3WEhYU2lTcFdsTGE=@46.17.47.58:18443#YFZ%20325%20@Outline_Vpn
+ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=@185.22.153.117:18443#%F0%9F%87%A9%F0%9F%87%AAConfigV2RayNG%20
+ss://YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=@185.22.153.117:18443#%F0%9F%A7%A9%20[15]%20@FREELAND8
+ss://YWVzLTEyOC1nY206QndscWg3R2NGQg==@168.138.205.100:53758#@ConfigV2RayNG
 vless://97e0ea78-67ae-4984-8a14-a7d1a51e58de@199.232.78.160:443?security=tls&sni=cdn.akamai.steamstatic.com&allowInsecure=1&type=ws&host=copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.&encryption=none#%F0%9F%8F%B3%EF%B8%8F%20%F0%9F%92%A5Config_jo-254
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?security=reality&sni=www.apple.com&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%AF%F0%9F%87%B5%20%F0%9F%92%A5Config_jo-238
